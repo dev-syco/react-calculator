@@ -48,7 +48,7 @@ export function classNames(arr: Array<string | object>) {
 }
 
 export function transformBigNumberToPow(num: number) {
-  const { [ 0 ]: number, [ 1 ]: pow } = num.toString().split('+');
+  const { 0: number, 1: pow } = num.toString().split('+');
   return pow ? `${ number }${ CALCULATOR_BUTTON.MULTIPLY }10${ CALCULATOR_BUTTON.POW }${ pow }` : number;
 }
 
@@ -57,7 +57,7 @@ export function replacePointToComma(expression: string) {
 }
 
 export function replaceCommaToPoint(expression: string) {
-  return replaceExpressionSpaces(expression).replace(/\,/g, '.');
+  return replaceExpressionSpaces(expression).replace(/,/g, '.');
 }
 
 export function replaceExpressionSpaces(expression: string) {
