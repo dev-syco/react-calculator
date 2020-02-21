@@ -1,0 +1,19 @@
+@import "../styles/variables";
+
+.app {
+  height: 100%;
+  text-align: center;
+
+  & > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    width: 0;
+    height: 100%;
+  }
+}

@@ -1,0 +1,60 @@
+@import "./src/styles/variables";
+
+.keyboard-component {
+  overflow: hidden;
+  margin: -1px;
+  border: lighten($primaryColor, 25%) 1px solid;
+  box-sizing: border-box;
+
+  button {
+    width: 100%;
+    display: block;
+    background: lighten($primaryColor, 45%);
+    padding: 15px 5px;
+    border: lighten($primaryColor, 30%) 1px solid;
+    cursor: pointer;
+    color: $primaryColor;
+    font-size: 18px;
+
+    &:hover {
+      background: lighten($primaryColor, 40%);
+    }
+  }
+
+  .grid-cell-component {
+    margin: -1px;
+
+    &.light-blue {
+      button {
+        background: lighten($primaryColor, 20%);
+        color: #fff;
+
+        &:hover {
+          background: lighten($primaryColor, 10%);
+        }
+      }
+    }
+
+    &.blue {
+      button {
+        background: lighten($primaryColor, 10%);
+        color: #fff;
+
+        &:hover {
+          background: lighten($primaryColor, 2.5%);
+        }
+      }
+    }
+
+    &.green {
+      button {
+        background: lighten($successColor, 15%);
+        color: #fff;
+
+        &:hover {
+          background: lighten($successColor, 5%);
+        }
+      }
+    }
+  }
+}

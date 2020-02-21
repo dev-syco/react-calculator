@@ -1,0 +1,8 @@
+@import "./src/styles/variables";
+
+.calculator-component {
+  border: darken($backgroundColor, 10%) 4px solid;
+  background: lighten($backgroundColor, 10%);
+  border-radius: $borderRadius;
+  box-sizing: border-box;
+}

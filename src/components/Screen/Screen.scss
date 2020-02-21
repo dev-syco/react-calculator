@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+.screen-component {
+  text-align: right;
+  background: #fff;
+  padding: 5px 15px;
+
+  input {
+    width: 100%;
+    text-align: right;
+    box-sizing: border-box;
+    border: none;
+    font-size: 24px;
+  }
+
+  &-result {
+    opacity: 0.5;
+    font-size: 14px;
+    min-height: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &--expression {
+      max-width: 250px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      margin-left: auto;
+
+      &.expand {
+        cursor: pointer;
+        text-decoration: dotted;
+        color: darken($primaryColor, 5%);
+      }
+    }
+
+    &--result {
+      span {
+        padding: 0 5px 0 2px;
+      }
+    }
+  }
+}
