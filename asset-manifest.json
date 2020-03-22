@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.890dcf71.chunk.css",
-    "main.js": "/static/js/main.e281a456.chunk.js",
-    "main.js.map": "/static/js/main.e281a456.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.107bb8ca.js",
-    "runtime-main.js.map": "/static/js/runtime-main.107bb8ca.js.map",
-    "static/js/2.83b2980d.chunk.js": "/static/js/2.83b2980d.chunk.js",
-    "static/js/2.83b2980d.chunk.js.map": "/static/js/2.83b2980d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b41a07fd4af39a8beb3e6d68c3de5783.js": "/precache-manifest.b41a07fd4af39a8beb3e6d68c3de5783.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.890dcf71.chunk.css.map": "/static/css/main.890dcf71.chunk.css.map",
-    "static/js/2.83b2980d.chunk.js.LICENSE": "/static/js/2.83b2980d.chunk.js.LICENSE"
+    "main.css": "https://dev-syco.github.io/react-calculator/static/css/main.c0c9ecab.chunk.css",
+    "main.js": "https://dev-syco.github.io/react-calculator/static/js/main.a04462b2.chunk.js",
+    "main.js.map": "https://dev-syco.github.io/react-calculator/static/js/main.a04462b2.chunk.js.map",
+    "runtime-main.js": "https://dev-syco.github.io/react-calculator/static/js/runtime-main.3d99520d.js",
+    "runtime-main.js.map": "https://dev-syco.github.io/react-calculator/static/js/runtime-main.3d99520d.js.map",
+    "static/js/2.83b2980d.chunk.js": "https://dev-syco.github.io/react-calculator/static/js/2.83b2980d.chunk.js",
+    "static/js/2.83b2980d.chunk.js.map": "https://dev-syco.github.io/react-calculator/static/js/2.83b2980d.chunk.js.map",
+    "index.html": "https://dev-syco.github.io/react-calculator/index.html",
+    "precache-manifest.6b99d9453c213cda1ffe659377bb17f3.js": "https://dev-syco.github.io/react-calculator/precache-manifest.6b99d9453c213cda1ffe659377bb17f3.js",
+    "service-worker.js": "https://dev-syco.github.io/react-calculator/service-worker.js",
+    "static/css/main.c0c9ecab.chunk.css.map": "https://dev-syco.github.io/react-calculator/static/css/main.c0c9ecab.chunk.css.map",
+    "static/js/2.83b2980d.chunk.js.LICENSE": "https://dev-syco.github.io/react-calculator/static/js/2.83b2980d.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.107bb8ca.js",
+    "static/js/runtime-main.3d99520d.js",
     "static/js/2.83b2980d.chunk.js",
-    "static/css/main.890dcf71.chunk.css",
-    "static/js/main.e281a456.chunk.js"
+    "static/css/main.c0c9ecab.chunk.css",
+    "static/js/main.a04462b2.chunk.js"
   ]
 }
